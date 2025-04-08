@@ -7,7 +7,7 @@
 }
 
 main{
-    overflow: auto;
+    overflow: auto;  /*CRIOU A ROLAGEM PARA BAIXO*/
     padding: 4rem;
 }
 
@@ -15,6 +15,20 @@ main .main-container{
     max-width: 33rem;
     margin-left: auto;
 }
+
+.back{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.back h1{
+    font: 600 1.5rem/1.25 var(--font-family);
+    margin-bottom: 0.5rem;
+}
+
+
 
 aside{
     background-color: var(--surface-secondary);
@@ -24,3 +38,18 @@ aside{
 aside .aside-container{
     max-width: 31rem;
 }
+
+.aside-container > img{
+    margin-top: 2rem;
+}
+
+.aside-container h2{
+    font: 600 2.5rem/1.25 var(--font-family);
+    margin-bottom: 0.5rem;
+}
+
+.aside-container h2 span{
+    color: var(--text-highlight);
+}
+
+
