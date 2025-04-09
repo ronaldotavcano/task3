@@ -1,3 +1,5 @@
+@import url(droparea.css);
+
 input, textarea, select{
     appearance: none;
     width: 100%;
@@ -19,13 +21,14 @@ label{
 
 input:focus,       /*FOCUS É QND CLICAR NELE*/
 select:focus,
-textarea:focus {
+textarea:focus, input[type="date"]:focus-within {
     outline: 0.25rem solid var(--surface-secondary);
     border: 0.125rem solid var(--stroke-highlight);
     outline-offset: 0.1px;
 }
 
 input[type="date"]{
+
     &::webkit-calendar-picker-indicator{
         opacity: 0;
     }
