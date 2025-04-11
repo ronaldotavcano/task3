@@ -15,3 +15,7 @@ legend{
     font: 600 1rem/1.25 var(--font-family);
     margin-bottom: 1.5rem;
 }
+
+fieldset + fieldset{ /*A GENTE LÊ = FIELDSET COM UM FIELDSET ANTERIOR A ELE*/
+    margin-top: 3rem;
+}
